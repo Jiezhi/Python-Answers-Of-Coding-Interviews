@@ -1,4 +1,9 @@
+#!/usr/bin/env python
 """
+Github: https://github.com/Jiezhi/Python-Answers-Of-Coding-Interviews
+
+Created on 2019-03-17
+
 Des: 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样一个二维数组和一个整数，判断数组中是否含有该整数。
 
 See: 《剑指 Offer》（第二版）P.44
@@ -28,5 +33,7 @@ def find(matrix, num):
 if __name__ == '__main__':
     matrix = [[1, 2, 8, 9], [2, 4, 9, 12], [4, 7, 10, 13], [6, 8, 11, 15]]
     assert find(matrix, num=7)
+    assert not find(matrix, num=19)
+    assert not find(matrix, num=-19)
     assert not find(matrix, 18)
     assert not find([], num=8)
