@@ -1,1 +1,6 @@
-# Python-Answers-Of-Coding-Interviews
+# 《剑指 Offer》（第二版）Python 解法
+
+未特别指出的情况下，所有代码都是基于 python3实现，所有页码皆为《剑指 Offer》（第二版）中文版对应的页码。
+
+## [第二章 面试需要的基础知识](ch2)
+### [面试题4 二维数组中的查找](ch2/q4.search-in-a-2d-matrix.py)
